@@ -746,8 +746,8 @@
 	overflow: initial;
 	}
 	h1, h2, h3, h4, h5, h6 {
-	color: #484c51;
-	font-family: roboto condensed,arial;
+	color: inherit!important;
+	font-family: inherit!important;
 	font-weight: normal;
 	line-height:normal;
 	}
@@ -770,7 +770,7 @@
 	margin-right: 0;
 	clear: both;
 	background: none;
-	font-family: roboto condensed;
+	font-family: inherit;
 	}
 	}
 	#mega-menu-wrap-primary #mega-menu-primary img {
@@ -802,7 +802,7 @@
 	margin-right: 0;
 	clear: both;
 	background: none;
-	font-family: roboto condensed;
+	font-family: inherit;
 	}
 	}
 	#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
@@ -818,7 +818,7 @@
 	input.wpcf7-form-control.wpcf7-submit {
 	background: #a9d276;
 	color: #525252;
-	font-family: roboto condensed;
+	font-family: inherit;
 	font-size: 20px;
 	}
 	.box-acd379 {
@@ -926,7 +926,7 @@
 		font-size: 1.387em;
 		text-transform: uppercase;
 		font-weight: normal;
-		font-family: roboto condensed;
+		font-family: inherit;
 	}
 	/**	END CART PAGE */
 	.hentry .entry-header {
