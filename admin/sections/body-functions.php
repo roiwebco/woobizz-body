@@ -1049,9 +1049,6 @@
 		background: #DD6C6C;
 		color: white;
 	}
-	ul.order_details:after, ul.order_details:before {
-		display: none;
-	}
 	p.woocommerce-thankyou-order-received {
 		text-align: center;
 	}
