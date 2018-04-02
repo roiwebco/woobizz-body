@@ -241,7 +241,7 @@
 	$woobizz_body_pagebackgroundgradient2opacity= get_option(WOOBIZZBODY.'_woobizz_body_pagebackgroundgradient2opacity');
 	$trasnform_woobizz_body_pagebackgroundgradient2=woobizz_body_hextorgb($woobizz_body_pagebackgroundgradient2);
 	$woobizz_body_pagebackgroundfullgradient2=$trasnform_woobizz_body_pagebackgroundgradient2.",".$woobizz_body_pagebackgroundgradient2opacity;
-	//2.3 PAGE BACGROUND SHADOWS
+	//1.5 PAGE BACGROUND SHADOWS
 	$woobizz_body_pageshadowcolor= get_option(WOOBIZZBODY.'_woobizz_body_pageshadowcolor');
 	$woobizz_body_pageshadowrightdistance= get_option(WOOBIZZBODY.'_woobizz_body_pageshadowrightdistance');
 	$woobizz_body_pageshadowbottomdistance= get_option(WOOBIZZBODY.'_woobizz_body_pageshadowbottomdistance');
@@ -259,6 +259,27 @@
 		} else {
 			$woobizz_body_pageshadowfull="none";
 	} 
+	//echo $woobizz_body_pageshadowfull;
+	//1.6 START BODY BORDER OPTIONS	
+	$woobizz_body_bordersize= get_option(WOOBIZZBODY.'_woobizz_body_bordersize');
+	$woobizz_body_bordercolor= get_option(WOOBIZZBODY.'_woobizz_body_bordercolor');
+	$woobizz_body_borderradius= get_option(WOOBIZZBODY.'_woobizz_body_borderradius');
+	$woobizz_body_borderstyle= get_option(WOOBIZZBODY.'_woobizz_body_borderstyle');
+	if ($woobizz_body_borderstyle==0){
+			$woobizz_body_borderstyle="dotted";
+		} elseif($woobizz_body_borderstyle==1) {
+			$woobizz_body_borderstyle="dashed";
+		} elseif($woobizz_body_borderstyle==2) {
+			$woobizz_body_borderstyle="solid";
+		} elseif($woobizz_body_borderstyle==2) {
+			$woobizz_body_borderstyle="none";
+		} else {$woobizz_body_borderstyle="none";
+	} 
+	$woobizz_body_borderfull=$woobizz_body_bordersize."px "
+									.$woobizz_body_borderstyle." "
+									.$woobizz_body_bordercolor." ";
+	//echo $woobizz_body_borderfull; 
+    //1.6 END BODY BORDER OPTIONS	
 	//--------------------------------------------------------------------------------------
 	// 3.- BUTTONS OPTIONS -----------------------------------------------------------------
 	//--------------------------------------------------------------------------------------
@@ -601,6 +622,9 @@
 		background-attachment:".$woobizz_body_bodybackgroundattachment.";
 		background-repeat:".$woobizz_body_bodybackgroundrepeat.";
 		background-position:".$woobizz_body_bodybackgroundposition.";
+		box-shadow:".$woobizz_body_pageshadowfull.";
+		border:".$woobizz_body_borderfull.";
+		border-radius:".$woobizz_body_borderradius."px;
 	}
 	@media screen and (max-width: 767px){
 		body{
@@ -608,9 +632,7 @@
 			
 		}
 	}
-	.site{
-		box-shadow:".$woobizz_body_pageshadowfull.";
-	}
+	
 	.site-content {
 		background:linear-gradient(rgba(".$woobizz_body_pagebackgroundfullgradient1."),
 								   rgba(".$woobizz_body_pagebackgroundfullgradient2.")),
@@ -619,6 +641,7 @@
 		background-size:".$woobizz_body_pagebackgroundsize.";
 		background-repeat:".$woobizz_body_pagebackgroundrepeat.";
 		background-position:".$woobizz_body_pagebackgroundposition.";
+		
 	}
 	.col-full {
 		width:".$woobizz_body_websitewidth."%;

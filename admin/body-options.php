@@ -312,7 +312,116 @@
 				"max" => 1,
 				"suffix" => "",
 				"increment" => 0.01,
-				"type" => "number");	
+				"type" => "number");
+	//1.5 START PAGE BACKGROUND SHADOWS
+	$options[] = array( "name" => "1.5 PAGE BACKGROUND SHADOWS",
+				"type" => "html",
+				"std" => "");
+	$options[] = array("type" => "divider");	
+	$options[] = array( "name" => __("Apply Shadow?","woobizz-body"),
+				"desc" => __("", "woobizz-body"),
+				"id" => WOOBIZZBODY."_woobizz_body_pageshadowapply",
+				"class" => "short first",
+				"std" => 0,
+				"type" => "select",
+				"options" => array(
+					0 => "Yes",
+					1 => "Non",
+					));			
+	$options[] = array( "name" => __("Shadow Color","woobizz-body"),
+				"desc" => __("", "woobizz-body"),
+				"id" => WOOBIZZBODY."_woobizz_body_pageshadowcolor",
+				"class" => "short",
+				"std" => '#2c2d33',
+				"type" => "color");	
+	$options[] = array( "name" => __("Right Distance","woobizz-body"),
+				"desc" => __("", "woobizz-body"),
+				"id" => WOOBIZZBODY."_woobizz_body_pageshadowrightdistance",
+				"class" => "short last",
+				"std" => 0,
+				"min" => 0,
+				"max" => 200,
+				"suffix" => "px",
+				"increment" => 1,
+				"type" => "number");
+	$options[] = array( "name" => __("Bottom Distance","woobizz-body"),
+					"desc" => __("", "woobizz-body"),
+					"id" => WOOBIZZBODY."_woobizz_body_pageshadowbottomdistance",
+					"class" => "short first",
+					"std" => 0,
+					"min" => 0,
+					"max" => 200,
+					"suffix" => "px",
+					"increment" => 1,
+					"type" => "number");	
+	$options[] = array( "name" => __("Spread","woobizz-body"),
+					"desc" => __("", "woobizz-body"),
+					"id" => WOOBIZZBODY."_woobizz_body_pageshadowspread",
+					"class" => "short",
+					"std" => 0,
+					"min" => 0,
+					"max" => 200,
+					"suffix" => "px",
+					"increment" => 1,
+					"type" => "number");	
+	$options[] = array( "name" => __("Size","woobizz-body"),
+					"desc" => __("", "woobizz-body"),
+					"id" => WOOBIZZBODY."_woobizz_body_pageshadowsize",
+					"class" => "short last",
+					"std" => 0,
+					"min" => 0,
+					"max" => 200,
+					"suffix" => "px",
+					"increment" => 1,
+					"type" => "number");
+	//1.5 END PAGE BACKGROUND SHADOWS
+	//1.6 START BODY BORDERS OPTIONS
+    $options[] = array("type" => "divider");
+	$options[] = array( "name" => "1.6 BODY BORDERS OPTIONS",
+				"type" => "html",
+				"std" => "");
+	$options[] = array("type" => "divider");							
+	$options[] = array( "name" => __("Border Size","woobizz-body"),
+				"desc" => __("", "woobizz-body"),
+				"id" => WOOBIZZBODY."_woobizz_body_bordersize",
+				"class" => "tiny first",
+				"std" => 0,
+				"min" => 0,
+				"max" => 50,
+				"suffix" => "px",
+				"increment" => 1,
+				"type" => "number");
+			
+	$options[] = array( "name" => __("Border Style","woobizz-body"),
+				"desc" => __("", "woobizz-body"),
+				"id" => WOOBIZZBODY."_woobizz_body_borderstyle",
+				"class" => "tiny ",
+				"std" => 0,
+				"type" => "select",
+				"options" => array(
+					0 => "dotted",
+					1 => "dashed",
+					2 => "solid",
+					3 => "none",
+					));			
+	
+	$options[] = array( "name" => __("Border Color","woobizz-body"),
+				"desc" => __("", "woobizz-body"),
+				"id" => WOOBIZZBODY."_woobizz_body_bordercolor",
+				"class" => "tiny",
+				"std" => '#2c2d33',
+				"type" => "color");	
+	$options[] = array( "name" => __("Border Radius","woobizz-body"),
+				"desc" => __("", "woobizz-body"),
+				"id" => WOOBIZZBODY."_woobizz_body_borderradius",
+				"class" => "tiny last",
+				"std" => 0,
+				"min" => 0,
+				"max" => 50,
+				"suffix" => "px",
+				"increment" => 1,
+				"type" => "number");
+     //1.6 END BODY BORDERS OPTIONS            				
 	//START PAGE SECTION ------------------------------------------------------------
 	$options[] = array( "name" => __('2.- Page Background','woobizz-body'),
 						"type" => "section");
@@ -439,68 +548,6 @@
 				"increment" => 0.01,
 				"type" => "number");	
 	$options[] = array("type" => "divider");			
-	//2.3 Page Box Shadow
-	$options[] = array( "name" => "2.3 PAGE BACKGROUND SHADOWS",
-				"type" => "html",
-				"std" => "");
-	$options[] = array("type" => "divider");	
-	$options[] = array( "name" => __("Apply Shadow?","woobizz-body"),
-				"desc" => __("", "woobizz-body"),
-				"id" => WOOBIZZBODY."_woobizz_body_pageshadowapply",
-				"class" => "short first",
-				"std" => 0,
-				"type" => "select",
-				"options" => array(
-					0 => "Yes",
-					1 => "Non",
-					));			
-	$options[] = array( "name" => __("Shadow Color","woobizz-body"),
-				"desc" => __("", "woobizz-body"),
-				"id" => WOOBIZZBODY."_woobizz_body_pageshadowcolor",
-				"class" => "short",
-				"std" => '#2c2d33',
-				"type" => "color");	
-	$options[] = array( "name" => __("Right Distance","woobizz-body"),
-				"desc" => __("", "woobizz-body"),
-				"id" => WOOBIZZBODY."_woobizz_body_pageshadowrightdistance",
-				"class" => "short last",
-				"std" => 0,
-				"min" => 0,
-				"max" => 200,
-				"suffix" => "px",
-				"increment" => 1,
-				"type" => "number");
-	$options[] = array( "name" => __("Bottom Distance","woobizz-body"),
-					"desc" => __("", "woobizz-body"),
-					"id" => WOOBIZZBODY."_woobizz_body_pageshadowbottomdistance",
-					"class" => "short first",
-					"std" => 0,
-					"min" => 0,
-					"max" => 200,
-					"suffix" => "px",
-					"increment" => 1,
-					"type" => "number");	
-	$options[] = array( "name" => __("Spread","woobizz-body"),
-					"desc" => __("", "woobizz-body"),
-					"id" => WOOBIZZBODY."_woobizz_body_pageshadowspread",
-					"class" => "short",
-					"std" => 0,
-					"min" => 0,
-					"max" => 200,
-					"suffix" => "px",
-					"increment" => 1,
-					"type" => "number");	
-	$options[] = array( "name" => __("Size","woobizz-body"),
-					"desc" => __("", "woobizz-body"),
-					"id" => WOOBIZZBODY."_woobizz_body_pageshadowsize",
-					"class" => "short last",
-					"std" => 0,
-					"min" => 0,
-					"max" => 200,
-					"suffix" => "px",
-					"increment" => 1,
-					"type" => "number");
-	//2.- END FONT OPTIONS -------------------------------------------
 	//3.- START BUTTONS OPTIONS -------------------------------------------
 	$options[] = array( "name" => __('3.- Buttons Options','woobizz-body'),
 						"type" => "section");
