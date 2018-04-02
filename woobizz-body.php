@@ -5,7 +5,7 @@
 * Description: Woocommerce BodyCustomiser
 * Author: Woobizz
 * Author URI: https://woobizz.com
-* Version: 1.0.2
+* Version: 1.0.3
 * Text Domain: woobizz-body
 * Domain Path: /lang/
 */

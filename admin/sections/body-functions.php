@@ -1024,7 +1024,7 @@
 		padding: .236em;
 		max-width: 3.618em;
 	}
-	tr.cart-discount td { display: none }
+	
 	/**TO WORK */
 	.archive h1.page-title {
 		text-align:center!important;
