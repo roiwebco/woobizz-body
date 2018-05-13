@@ -2,10 +2,10 @@
 /**
 * Plugin Name: Woobizz Body
 * Plugin URI: https://woobizz.com
-* Description: Woocommerce BodyCustomiser
-* Author: Woobizz
-* Author URI: https://woobizz.com
-* Version: 1.0.4
+* Description: WooCommerce Storefront Body Customiser
+* Author: ROIWEB.CO
+* Author URI: https://roiweb.co
+* Version: 1.0.5
 * Text Domain: woobizz-body
 * Domain Path: /lang/
 */

@@ -610,21 +610,21 @@
 	echo"
 	<style>
 	body{
-		margin-top:".$woobizz_body_bodymargintopsize."".$woobizz_body_bodymarginunittop.";
-		margin-right:".$woobizz_body_bodymarginrightsize."".$woobizz_body_bodymarginunitright.";
-		margin-bottom:".$woobizz_body_bodymarginbottomsize."".$woobizz_body_bodymarginunitbottom.";
-		margin-left:".$woobizz_body_bodymarginleftsize."".$woobizz_body_bodymarginunitleft.";
+		margin-top:".$woobizz_body_bodymargintopsize."".$woobizz_body_bodymarginunittop."!important;
+		margin-right:".$woobizz_body_bodymarginrightsize."".$woobizz_body_bodymarginunitright."!important;
+		margin-bottom:".$woobizz_body_bodymarginbottomsize."".$woobizz_body_bodymarginunitbottom."!important;
+		margin-left:".$woobizz_body_bodymarginleftsize."".$woobizz_body_bodymarginunitleft."!important;
 		background:linear-gradient(rgba(".$woobizz_body_bodybackgroundfullgradient1."),
 								   rgba(".$woobizz_body_bodybackgroundfullgradient2.")),
-								   url(".$woobizz_body_bodybackgroundimage.");
-		background-color:".$woobizz_body_bodybackgroundcolor.";
-		background-size:".$woobizz_body_bodybackgroundsize.";
-		background-attachment:".$woobizz_body_bodybackgroundattachment.";
-		background-repeat:".$woobizz_body_bodybackgroundrepeat.";
-		background-position:".$woobizz_body_bodybackgroundposition.";
-		box-shadow:".$woobizz_body_pageshadowfull.";
-		border:".$woobizz_body_borderfull.";
-		border-radius:".$woobizz_body_borderradius."px;
+								   url(".$woobizz_body_bodybackgroundimage."!important);
+		background-color:".$woobizz_body_bodybackgroundcolor."!important;
+		background-size:".$woobizz_body_bodybackgroundsize."!important;
+		background-attachment:".$woobizz_body_bodybackgroundattachment."!important;
+		background-repeat:".$woobizz_body_bodybackgroundrepeat."!important;
+		background-position:".$woobizz_body_bodybackgroundposition."!important;
+		box-shadow:".$woobizz_body_pageshadowfull."!important;
+		border:".$woobizz_body_borderfull."!important;
+		border-radius:".$woobizz_body_borderradius."px!important;
 	}
 	@media screen and (max-width: 767px){
 		body{
@@ -636,16 +636,16 @@
 	.site-content {
 		background:linear-gradient(rgba(".$woobizz_body_pagebackgroundfullgradient1."),
 								   rgba(".$woobizz_body_pagebackgroundfullgradient2.")),
-								   url(".$woobizz_body_pagebackgroundimage.");
-		background-color:".$woobizz_body_pagebackgroundcolor.";
-		background-size:".$woobizz_body_pagebackgroundsize.";
-		background-repeat:".$woobizz_body_pagebackgroundrepeat.";
-		background-position:".$woobizz_body_pagebackgroundposition.";
+								   url(".$woobizz_body_pagebackgroundimage."!important);
+		background-color:".$woobizz_body_pagebackgroundcolor."!important;
+		background-size:".$woobizz_body_pagebackgroundsize."!important;
+		background-repeat:".$woobizz_body_pagebackgroundrepeat."!important;
+		background-position:".$woobizz_body_pagebackgroundposition."!important;
 		
 	}
 	.col-full {
-		width:".$woobizz_body_websitewidth."%;
-		max-width:".$woobizz_body_websitemaxwidth."px;
+		width:".$woobizz_body_websitewidth."%!important;
+		max-width:".$woobizz_body_websitemaxwidth."px!important;
 		padding: 0;
 		margin:0 auto!important;
 	}
@@ -653,101 +653,101 @@
 	/** END GENERAL */
 	/** BUTTONS */
 	ul.products li.product .button {
-		background:".$woobizz_body_gbuttonslistbackgroundcolor.";
-		color:".$woobizz_body_gbuttonslisttextcolor.";
-		border:".$woobizz_body_gbuttonslistborderfull.";
-		border-radius:".$woobizz_body_gbuttonslistborderradius."px;
-		box-shadow:".$woobizz_body_gbuttonslistshadowfull.";
+		background:".$woobizz_body_gbuttonslistbackgroundcolor."!important;
+		color:".$woobizz_body_gbuttonslisttextcolor."!important;
+		border:".$woobizz_body_gbuttonslistborderfull."!important;
+		border-radius:".$woobizz_body_gbuttonslistborderradius."px!important;
+		box-shadow:".$woobizz_body_gbuttonslistshadowfull."!important;
 	}
 	table.cart td.actions input {
         margin: 5px;
 	}
 	.woocommerce-cart table.cart td.actions .button{
-		background:".$woobizz_body_gbuttonscouponupdatebackgroundcolor.";
-		color:".$woobizz_body_gbuttonscouponupdatetextcolor.";
-		border:".$woobizz_body_gbuttonscouponupdateborderfull.";
-		border-radius:".$woobizz_body_gbuttonscouponupdateborderradius."px;
-		box-shadow:".$woobizz_body_gbuttonscouponupdateshadowfull.";
+		background:".$woobizz_body_gbuttonscouponupdatebackgroundcolor."!important;
+		color:".$woobizz_body_gbuttonscouponupdatetextcolor."!important;
+		border:".$woobizz_body_gbuttonscouponupdateborderfull."!important;
+		border-radius:".$woobizz_body_gbuttonscouponupdateborderradius."px!important;
+		box-shadow:".$woobizz_body_gbuttonscouponupdateshadowfull."!important;
 	}
 	.single-product div.product form.cart .button {
-		background:".$woobizz_body_gbuttonsctabackgroundcolor.";
-		color:".$woobizz_body_gbuttonsctatextcolor.";
-		border:".$woobizz_body_gbuttonsctaborderfull.";
-		border-radius:".$woobizz_body_gbuttonsctaborderradius."px;
-		box-shadow:".$woobizz_body_gbuttonsctashadowfull.";
+		background:".$woobizz_body_gbuttonsctabackgroundcolor."!important;
+		color:".$woobizz_body_gbuttonsctatextcolor."!important;
+		border:".$woobizz_body_gbuttonsctaborderfull."!important;
+		border-radius:".$woobizz_body_gbuttonsctaborderradius."px!important;
+		box-shadow:".$woobizz_body_gbuttonsctashadowfull."!important;
 	}
 	.woocommerce-cart .wc-proceed-to-checkout .button.checkout-button{
-		background:".$woobizz_body_gbuttonsctabackgroundcolor.";
-		color:".$woobizz_body_gbuttonsctatextcolor.";
-		border:".$woobizz_body_gbuttonsctaborderfull.";
-		border-radius:".$woobizz_body_gbuttonsctaborderradius."px;
-		box-shadow:".$woobizz_body_gbuttonsctashadowfull.";
+		background:".$woobizz_body_gbuttonsctabackgroundcolor."!important;
+		color:".$woobizz_body_gbuttonsctatextcolor."!important;
+		border:".$woobizz_body_gbuttonsctaborderfull."!important;
+		border-radius:".$woobizz_body_gbuttonsctaborderradius."px!important;
+		box-shadow:".$woobizz_body_gbuttonsctashadowfull."!important;
 	}
 	#payment .place-order .button {
-		background:".$woobizz_body_gbuttonsctabackgroundcolor.";
-		color:".$woobizz_body_gbuttonsctatextcolor.";
-		border:".$woobizz_body_gbuttonsctaborderfull.";
-		border-radius:".$woobizz_body_gbuttonsctaborderradius."px;
-		box-shadow:".$woobizz_body_gbuttonsctashadowfull.";
+		background:".$woobizz_body_gbuttonsctabackgroundcolor."!important;
+		color:".$woobizz_body_gbuttonsctatextcolor."!important;
+		border:".$woobizz_body_gbuttonsctaborderfull."!important;
+		border-radius:".$woobizz_body_gbuttonsctaborderradius."px!important;
+		box-shadow:".$woobizz_body_gbuttonsctashadowfull."!important;
 	}
 	/** END BUTTONS */
 	/**	INFO & ALERT GENERAL OPTIONS */
 	.woocommerce-info{
-		background:".$woobizz_body_infoalertbackgroundcolor.";
-		color:".$woobizz_body_infoalerttextcolor.";
-		border:".$woobizz_body_infoalertborderfull.";
-		border-radius:".$woobizz_body_infoalertborderradius."px;
-		box-shadow:".$woobizz_body_infoalertshadowfull.";
-		text-align:".$woobizz_body_infoalerttextalign.";
-		text-transform:".$woobizz_body_infoalerttexttransform.";
+		background:".$woobizz_body_infoalertbackgroundcolor."!important;
+		color:".$woobizz_body_infoalerttextcolor."!important;
+		border:".$woobizz_body_infoalertborderfull."!important;
+		border-radius:".$woobizz_body_infoalertborderradius."px!important;
+		box-shadow:".$woobizz_body_infoalertshadowfull."!important;
+		text-align:".$woobizz_body_infoalerttextalign."!important;
+		text-transform:".$woobizz_body_infoalerttexttransform."!important;
 		margin-bottom:0!important;
 		text-align:center;
 		text-transform:none;
 	}
 	a.showcoupon {
-		color:".$woobizz_body_infoalerttextcolor.";
-	}
-	a.showcoupon:hover {
 		color:".$woobizz_body_infoalerttextcolor."!important;
 	}
+	a.showcoupon:hover {
+		color:".$woobizz_body_infoalerttextcolor."!important!important;
+	}
 	.woocommerce-error{
-		background:".$woobizz_body_erroralertbackgroundcolor.";
-		color:".$woobizz_body_erroralerttextcolor.";
-		border:".$woobizz_body_erroralertborderfull.";
-		border-radius:".$woobizz_body_erroralertborderradius."px;
-		box-shadow:".$woobizz_body_erroralertshadowfull.";
-		text-align:".$woobizz_body_erroralerttextalign.";
-		text-transform:".$woobizz_body_erroralerttexttransform.";
+		background:".$woobizz_body_erroralertbackgroundcolor."!important;
+		color:".$woobizz_body_erroralerttextcolor."!important;
+		border:".$woobizz_body_erroralertborderfull."!important;
+		border-radius:".$woobizz_body_erroralertborderradius."px!important;
+		box-shadow:".$woobizz_body_erroralertshadowfull."!important;
+		text-align:".$woobizz_body_erroralerttextalign."!important;
+		text-transform:".$woobizz_body_erroralerttexttransform."!important;
 		margin-bottom:0!important;
 		text-align:center;
 		text-transform:none;
 	}
 	.woocommerce-message{
-		background:".$woobizz_body_messagealertbackgroundcolor.";
-		color:".$woobizz_body_messagealerttextcolor.";
-		border:".$woobizz_body_messagealertborderfull.";
-		border-radius:".$woobizz_body_messagealertborderradius."px;
-		box-shadow:".$woobizz_body_messagealertshadowfull.";
-		text-align:".$woobizz_body_messagealerttextalign.";
-		text-transform:".$woobizz_body_messagealerttexttransform.";
+		background:".$woobizz_body_messagealertbackgroundcolor."!important;
+		color:".$woobizz_body_messagealerttextcolor."!important;
+		border:".$woobizz_body_messagealertborderfull."!important;
+		border-radius:".$woobizz_body_messagealertborderradius."px!important;
+		box-shadow:".$woobizz_body_messagealertshadowfull."!important;
+		text-align:".$woobizz_body_messagealerttextalign."!important;
+		text-transform:".$woobizz_body_messagealerttexttransform."!important;
 		margin-bottom:0!important;
 		text-align:center;
 		text-transform:none;
 	}
 	a.button.wc-forward {
-		color:".$woobizz_body_messagealerttextcolor.";
+		color:".$woobizz_body_messagealerttextcolor."!important;
 	}
 	a.button.wc-forward:hover {
-		color:".$woobizz_body_messagealerttextcolor.";
+		color:".$woobizz_body_messagealerttextcolor."!important;
 	}
 	a.showlogin {
-		color:".$woobizz_body_infoalerttextcolor.";
+		color:".$woobizz_body_infoalerttextcolor."!important;
 	}
 	a.showlogin:hover {
-		color:".$woobizz_body_infoalerttextcolor.";
+		color:".$woobizz_body_infoalerttextcolor."!important;
 	}
 	a.showcoupon:hover {
-		color:".$woobizz_body_infoalerttextcolor.";
+		color:".$woobizz_body_infoalerttextcolor."!important;
 	}
 	/**------------------------------------------------------*/
 	/**BODY CSS IN PROOGRESS*/
