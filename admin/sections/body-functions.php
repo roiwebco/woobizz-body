@@ -616,7 +616,7 @@
 		margin-left:".$woobizz_body_bodymarginleftsize."".$woobizz_body_bodymarginunitleft."!important;
 		background:linear-gradient(rgba(".$woobizz_body_bodybackgroundfullgradient1."),
 								   rgba(".$woobizz_body_bodybackgroundfullgradient2.")),
-								   url(".$woobizz_body_bodybackgroundimage."!important);
+								   url(".$woobizz_body_bodybackgroundimage.");
 		background-color:".$woobizz_body_bodybackgroundcolor."!important;
 		background-size:".$woobizz_body_bodybackgroundsize."!important;
 		background-attachment:".$woobizz_body_bodybackgroundattachment."!important;
@@ -636,7 +636,7 @@
 	.site-content {
 		background:linear-gradient(rgba(".$woobizz_body_pagebackgroundfullgradient1."),
 								   rgba(".$woobizz_body_pagebackgroundfullgradient2.")),
-								   url(".$woobizz_body_pagebackgroundimage."!important);
+								   url(".$woobizz_body_pagebackgroundimage.");
 		background-color:".$woobizz_body_pagebackgroundcolor."!important;
 		background-size:".$woobizz_body_pagebackgroundsize."!important;
 		background-repeat:".$woobizz_body_pagebackgroundrepeat."!important;
