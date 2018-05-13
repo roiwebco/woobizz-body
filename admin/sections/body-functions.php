@@ -652,13 +652,7 @@
 	
 	/** END GENERAL */
 	/** BUTTONS */
-	ul.products li.product .button {
-		background:".$woobizz_body_gbuttonslistbackgroundcolor."!important;
-		color:".$woobizz_body_gbuttonslisttextcolor."!important;
-		border:".$woobizz_body_gbuttonslistborderfull."!important;
-		border-radius:".$woobizz_body_gbuttonslistborderradius."px!important;
-		box-shadow:".$woobizz_body_gbuttonslistshadowfull."!important;
-	}
+	
 	table.cart td.actions input {
         margin: 5px;
 	}
@@ -801,10 +795,6 @@
 	}
 	.product_list_widget li {
 	padding: 1%;
-	}
-	header ul.menu li.current-menu-item > a {
-	color: #676767!important;
-	text-decoration: underline;
 	}
 	ul.mega-sub-menu {
 	padding: 4%!important;
