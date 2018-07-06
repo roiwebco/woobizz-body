@@ -738,6 +738,33 @@
 	a.showcoupon:hover {
 		color:".$woobizz_body_infoalerttextcolor."!important;
 	}
+	.wpcf7 input,textarea {
+		background-color: #ececec!important;
+		border: 1px solid #d2d2d2!important;
+			border-radius: 5px!important;
+
+	}
+	input.wpcf7-form-control.wpcf7-submit {
+		background-color: #f5f5f58c!important;
+		color: #737373;
+		font-family: inherit;
+		font-size: 20px;
+		max-width: 50%;
+		margin: 0 auto!important;
+		display: block;
+		border-radius: 5px;
+	}
+	.woocommerce-checkout .input-text {
+		border: 1px solid #c1c1c1 !important;
+		background: white!important;
+		border-radius: 5px;
+	}
+	h1.entry-title {
+		margin-bottom: 20px!important;
+	}
+	.widget a {
+		color: inherit!important;
+	}
 	</style>";
   }
   add_action('wp_head', 'woobizz_body_allcssoptions', 100);
